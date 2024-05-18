@@ -1,0 +1,557 @@
+{
+  "beaches": [
+    {
+      "name": "Sunset Beach",
+      "image": "https://images.trvl-media.com/lodging/34000000/33510000/33505900/33505808/w1279h853x1y1-13573dce.jpg",
+      "location": "123 Beachfront Ave, Oceanview, CA",
+      "description": "Sunset Beach offers stunning views of the Pacific Ocean with its golden sands and calm waves. It's a perfect spot for romantic strolls or family picnics.",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@sunsetbeach.com"
+    },
+    {
+      "name": "Paradise Cove",
+      "image": "https://static01.nyt.com/images/2015/11/11/t-magazine/11tmag-paradise-t-slide-LK6A/11tmag-paradise-t-slide-LK6A-superJumbo.jpg",
+      "location": "456 Seaside Blvd, Tropicana, FL",
+      "description": "Nestled in a secluded cove, Paradise Cove boasts crystal-clear waters and pristine white sands. Visitors can enjoy snorkeling, beach volleyball, and beachside dining.",
+      "phone": "+1 (555) 987-6543",
+      "email": "info@paradisecovebeach.com"
+    },
+    {
+      "name": "Golden Bay",
+      "image": "https://barn.co.nz/wp-content/uploads/2022/03/Wharariki-Beach-day-color-website.jpeg",
+      "location": "789 Shoreline Dr, Sun City, CA",
+      "description": "With its expansive shoreline and breathtaking sunsets, Golden Bay is a favorite among surfers and sunbathers alike. The beach is dotted with cafes and shops offering refreshments and souvenirs.",
+      "phone": "+1 (555) 456-7890",
+      "email": "info@goldenbaybeach.com"
+    },
+    {
+      "name": "Coral Cove",
+      "image": "https://floridahikes.com/wp-content/uploads/2014/05/Coral-Cove-rocky-shoreline.jpg",
+      "location": "321 Coral Reef Rd, Seaside Paradise, HI",
+      "description": "Coral Cove is renowned for its vibrant coral reefs and diverse marine life. Snorkelers and scuba divers flock here to explore the underwater wonders, while beachcombers enjoy the soft sands and gentle waves.",
+      "phone": "+1 (555) 234-5678",
+      "email": "info@coralcovebeach.com"
+    },
+    {
+      "name": "Silver Sands",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ef/e2/9e/lossiemouth-beach.jpg",
+      "location": "567 Coastal Highway, Silverton, OR",
+      "description": "Silver Sands is a picturesque beach known for its shimmering silver sands and stunning coastal cliffs. It's a haven for nature lovers, offering hiking trails, tide pools, and birdwatching opportunities.",
+      "phone": "+1 (555) 345-6789",
+      "email": "info@silversandsbeach.com"
+    },
+    {
+      "name": "Palm Beach",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/12/3f/b0/40.jpg",
+      "location": "876 Palm Tree Lane, Sunshine Bay, FL",
+      "description": "Palm Beach epitomizes tropical paradise with its swaying palm trees, azure waters, and powdery white sands. Visitors can indulge in water sports, beachfront dining, and luxurious resort accommodations.",
+      "phone": "+1 (555) 678-9012",
+      "email": "info@palmbeachresort.com"
+    }
+  ],
+  "cities": [
+    {
+      "name": "New York City",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/800px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+      "location": "New York, NY, USA",
+      "description": "New York City, often simply referred to as NYC, is the most populous city in the United States. It is known for its iconic landmarks such as the Statue of Liberty, Times Square, and Central Park.",
+      "phone": "+1 (212) 555-1234",
+      "email": "info@nyc.gov"
+    },
+    {
+       "name": "Seoul",
+      "image": "https://afar.brightspotcdn.com/dims4/default/6459267/2147483647/strip/true/crop/3000x1592+0+193/resize/1440x764!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd6%2Ff3%2F9acfb80f441abc089e718c77c554%2Ftravelguides-seoul-diegomariottini-shutterstock.jpg",
+      "location": "Seoul, South Korea",
+      "description": "Seoul, the capital of South Korea, is a bustling metropolis where modern skyscrapers, high-tech subways, and pop culture meet Buddhist temples, palaces, and street markets. It's a city that never sleeps, offering a vibrant nightlife, delicious cuisine, and a rich cultural heritage.",
+      "phone": "+82 2 120",
+      "email": "info@visitseoul.net"
+    },
+    {
+      "name": "Paris",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/640px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+      "location": "Paris, France",
+      "description": "Paris, the capital of France, is renowned for its art, fashion, gastronomy, and culture. The city is home to landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.",
+      "phone": "+33 1 23 45 67 89",
+      "email": "info@paris.fr"
+    },
+    {
+      "name": "Tokyo",
+      "image": "https://media.cntraveler.com/photos/63482b255e7943ad4006df0b/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg",
+      "location": "Tokyo, Japan",
+      "description": "Tokyo, the capital of Japan, is a bustling metropolis known for its neon-lit streets, cutting-edge technology, and vibrant pop culture. It offers a unique blend of modernity and tradition.",
+      "phone": "+81 3 12 34 56 78",
+      "email": "info@tokyo.jp"
+    },
+    {
+      "name": "Sydney",
+      "image": "https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_2560%2Cc_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg",
+      "location": "Sydney, New South Wales, Australia",
+      "description": "Sydney is the largest city in Australia and is famous for its stunning harbor, Sydney Opera House, and Harbour Bridge. It's a vibrant city with beautiful beaches and a laid-back lifestyle.",
+      "phone": "+61 2 3456 7890",
+      "email": "info@sydney.com.au"
+    },
+    {
+      "name": "Rome",
+      "image": "https://media.timeout.com/images/105211701/750/422/image.jpg",
+      "location": "Rome, Italy",
+      "description": "Rome, the capital of Italy, is a city steeped in history, art, and culture. It is home to ancient ruins such as the Colosseum, the Roman Forum, and the Vatican City.",
+      "phone": "+39 06 7890 1234",
+      "email": "info@rome.it"
+    }
+  ],
+  "historicals": [
+    {
+      "name": "The Colosseum",
+      "image": "https://images.nationalgeographic.org/image/upload/v1652340658/EducationHub/photos/colosseum.jpg",
+      "location": "Rome, Italy",
+      "description": "The Colosseum is an ancient amphitheater located in the center of Rome. It is one of the most famous and iconic landmarks of ancient Rome, known for its architectural grandeur and historical significance.",
+      "phone": "+39 06 1234 5678",
+      "email": "info@colosseum.it"
+    },
+    {
+      "name": "The Great Wall of China",
+      "image": "https://cdn.britannica.com/82/94382-050-20CF23DB/Great-Wall-of-China-Beijing.jpg",
+      "location": "China",
+      "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups.",
+      "phone": "+86 10 1234 5678",
+      "email": "info@greatwall.cn"
+    },
+    {
+      "name": "Machu Picchu",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+      "location": "Cusco Region, Peru",
+      "description": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, renowned for its dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views.",
+      "phone": "+51 84 123456",
+      "email": "info@machupicchu.pe"
+    },
+    {
+      "name": "The Pyramids of Giza",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/1200px-Pyramids_of_the_Giza_Necropolis.jpg",
+      "location": "Giza, Egypt",
+      "description": "The Pyramids of Giza are ancient Egyptian monuments located on the outskirts of Cairo. They consist of three primary pyramids, as well as several smaller pyramids, temples, and tombs, and are among the most recognizable and iconic structures in the world.",
+      "phone": "+20 2 12345678",
+      "email": "info@pyramids.eg"
+    },
+    {
+      "name": "The Acropolis",
+      "image": "https://cdn.britannica.com/22/99622-159-68A77F6C/Parthenon-Athens.jpg",
+      "location": "Athens, Greece",
+      "description": "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens and contains the remains of several ancient buildings of great architectural and historic significance, the most famous being the Parthenon.",
+      "phone": "+30 21 1234 5678",
+      "email": "info@acropolis.gr"
+    },
+    {
+      "name": "Stonehenge",
+      "image": "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/stonehenge/history/significance/stonehenge-from-ne-800x420.jpg",
+      "location": "Wiltshire, England",
+      "description": "Stonehenge is a prehistoric monument located in Wiltshire, England. It consists of a ring of standing stones, each around 13 feet high, seven feet wide, and weighing around 25 tons. It is believed to have been constructed between 3000 BC and 2000 BC.",
+      "phone": "+44 1980 624715",
+      "email": "info@stonehenge.co.uk"
+    }
+  ],
+  "lakes": [
+    {
+      "name": "Lake Tahoe",
+      "image": "https://scx2.b-cdn.net/gfx/news/hires/2023/more-heatwaves-and-van.jpg",
+      "location": "California/Nevada, USA",
+      "description": "Lake Tahoe is a large freshwater lake located in the Sierra Nevada of the United States, straddling the border between California and Nevada. It is known for its clear blue waters, surrounded by majestic mountains and forests, making it a popular year-round outdoor destination.",
+      "phone": "+1 530-543-2600",
+      "email": "info@laketahoe.us"
+    },
+    {
+      "name": "Lake Como",
+      "image": "https://content.tui.co.uk/adamtui/2023_11/7_21/46312703-696d-4805-a77e-b0b301671161/ITA_BEL_F0017WebOriginalCompressed.jpg",
+      "location": "Lombardy, Italy",
+      "description": "Lake Como is a lake of glacial origin in Lombardy, Italy. It is known for its dramatic scenery, elegant villas, and charming villages along its shores, making it a popular destination for tourists and celebrities alike.",
+      "phone": "+39 031 329 012",
+      "email": "info@lakecomo.it"
+    },
+    {
+      "name": "Crater Lake",
+      "image": "https://www.nps.gov/crla/learn/nature/images/lake-by-Kim-Chamales.jpg",
+      "location": "Oregon, USA",
+      "description": "Crater Lake is a caldera lake located in the U.S. state of Oregon. It is famous for its deep blue color and clarity of water, as well as being the main feature of Crater Lake National Park, the fifth oldest national park in the United States.",
+      "phone": "+1 541-594-3000",
+      "email": "info@craterlake.org"
+    },
+    {
+      "name": "Lake Titicaca",
+      "image": "https://cdn.britannica.com/88/3888-004-486D18C6/reed-boat-Aymara-Indian-shore-Bolivian-Lake.jpg",
+      "location": "Peru/Bolivia",
+      "description": "Lake Titicaca is a large, deep lake in the Andes on the border of Bolivia and Peru, often called the 'highest navigable lake' in the world. It is famous for its unique floating islands inhabited by the Uru people, as well as its archaeological remains.",
+      "phone": "+51 1 5748000",
+      "email": "info@laketiticaca.pe"
+    },
+    {
+      "name": "Lake Baikal",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2304,h_1296,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01fzv40qk5ejfnx15nkx.jpg",
+      "location": "Siberia, Russia",
+      "description": "Lake Baikal is a rift lake located in southern Siberia, Russia. It is the largest freshwater lake by volume in the world, containing roughly 20% of the world's unfrozen surface freshwater. It is also considered one of the clearest and oldest lakes on Earth.",
+      "phone": "+7 3012 21-01-64",
+      "email": "info@baikal.ru"
+    },
+    {
+      "name": "Lake Geneva",
+      "image": "https://cdn.audleytravel.com/4990/3566/79/15985940-lake-geneva-region.jpg",
+      "location": "Switzerland/France",
+      "description": "Lake Geneva is a large freshwater lake located on the northern border of Switzerland and the southern border of France. It is famous for its stunning scenery, surrounding vineyards, and numerous water sports and leisure activities.",
+      "phone": "+41 848 848 024",
+      "email": "info@lakegeneva.ch"
+    }
+  ],
+  "mountains": [
+    {
+      "name": "Mount Everest",
+      "image": "https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg",
+      "location": "Nepal/China",
+      "description": "Mount Everest is the Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. It is revered by climbers and trekkers from around the world, offering both extreme challenges and breathtaking views.",
+      "phone": "+977 1 1234567",
+      "email": "info@mounteverest.org"
+    },
+    {
+      "name": "K2",
+      "image": "https://www.jasminetours.com/wp-content/uploads/2023/11/K2_Mount_Godwin_Austen_Chogori_Savage_Mountain-1.jpg",
+      "location": "Pakistan/China",
+      "description": "K2, also known as Mount Godwin-Austen or Chhogori, is the second highest mountain in the world, after Mount Everest, at 8,611 meters above sea level. It is known for its difficult ascent and is considered one of the ultimate challenges for mountaineers.",
+      "phone": "+92 51 9205690",
+      "email": "info@k2.gov.pk"
+    },
+    {
+      "name": "Mount Kilimanjaro",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mt._Kilimanjaro_12.2006.JPG",
+      "location": "Tanzania",
+      "description": "Mount Kilimanjaro is the highest mountain in Africa and the highest single free-standing mountain in the world, rising 5,895 meters above sea level. It is a dormant volcano with three volcanic cones and is a popular destination for trekkers and climbers.",
+      "phone": "+255 27 2752979",
+      "email": "info@kilimanjaro.tz"
+    },
+    {
+      "name": "Mont Blanc",
+      "image": "https://cdn.britannica.com/36/76236-050-97AAD99C/pinnacles-Mont-Blanc-France.jpg",
+      "location": "France/Italy",
+      "description": "Mont Blanc is the highest mountain in the Alps and the highest peak in Europe outside of the Caucasus range. It is known for its challenging climbing routes, stunning views, and surrounding ski resorts.",
+      "phone": "+33 4 50 53 22 08",
+      "email": "info@montblanc.fr"
+    },
+    {
+      "name": "Mount Fuji",
+      "image": "https://news.cgtn.com/news/3d3d414e356b6a4d78457a6333566d54/img/d3166e8ba81c4ee6bad79f19409e5972/d3166e8ba81c4ee6bad79f19409e5972.jpg",
+      "location": "Honshu Island, Japan",
+      "description": "Mount Fuji is an active stratovolcano and the highest peak in Japan, standing 3,776 meters tall. It is an iconic symbol of Japan and is frequently depicted in art and literature. Climbing Mount Fuji is a popular activity, especially during the summer months.",
+      "phone": "+81 555 72 0101",
+      "email": "info@mtfuji.jp"
+    },
+    {
+      "name": "Denali",
+      "image": "https://cdn.britannica.com/30/2430-050-BB396B1E/Denali-Alaska.jpg",
+      "location": "Alaska, USA",
+      "description": "Denali, also known as Mount McKinley, is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level. It is located in the Alaska Range within Denali National Park and Preserve.",
+      "phone": "+1 907 683-9532",
+      "email": "info@denali.nps.gov"
+    }
+  ],
+  "parties": [
+    {
+      "name": "Ibiza",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-c/768x250/14/10/2e/a4/ibiza.jpg",
+      "location": "Balearic Islands, Spain",
+      "description": "Ibiza is renowned for its vibrant nightlife and electronic dance music scene. It attracts partygoers from around the world to its beach clubs, nightclubs, and music festivals, making it a top destination for those seeking an unforgettable party experience.",
+      "phone": "+34 971 31 00 00",
+      "email": "info@ibiza.es"
+    },
+    {
+      "name": "Las Vegas",
+      "image": "https://assets.simpleviewcms.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/lasvegas/strip_b86ddbea-3add-4995-b449-ac85d700b027.jpg",
+      "location": "Nevada, USA",
+      "description": "Las Vegas is synonymous with entertainment and excitement, offering a plethora of casinos, luxury hotels, world-class restaurants, and spectacular shows. It is a playground for adults seeking non-stop entertainment and indulgence.",
+      "phone": "+1 702-892-0711",
+      "email": "info@lasvegas.com"
+    },
+    {
+      "name": "Rio Carnival",
+      "image": "https://bookers.s3.amazonaws.com/pages/aquecendo-antes-do-desfile-concentracao.jpg",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "The Rio Carnival is the biggest carnival in the world, attracting millions of visitors each year with its vibrant parades, samba music, colorful costumes, and street parties. It is a celebration of Brazilian culture and joyous revelry.",
+      "phone": "+55 21 2332-9191",
+      "email": "info@riocarnival.com.br"
+    },
+    {
+      "name": "Berlin",
+      "image": "https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_3x2.jpg",
+      "location": "Germany",
+      "description": "Berlin is known for its eclectic nightlife, with a diverse range of clubs, bars, and music venues catering to all tastes. From techno raves to cozy jazz bars, Berlin offers something for every party enthusiast.",
+      "phone": "+49 30 25 00 23",
+      "email": "info@berlin.de"
+    },
+    {
+      "name": "Mykonos",
+      "image": "https://media.timeout.com/images/106025742/image.jpg",
+      "location": "Cyclades, Greece",
+      "description": "Mykonos is a Greek island known for its lively nightlife, picturesque beaches, and cosmopolitan atmosphere. It attracts a glamorous crowd of partygoers who come to dance the night away in its beach clubs and bars.",
+      "phone": "+30 2289 07 7919",
+      "email": "info@mykonos.gr"
+    },
+    {
+      "name": "Miami",
+      "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/471000/471674-Miami.jpg",
+      "location": "Florida, USA",
+      "description": "Miami is famous for its vibrant nightlife, beautiful beaches, and diverse cultural scene. From trendy clubs in South Beach to Latin-inspired venues in Little Havana, Miami offers endless opportunities for partying and fun.",
+      "phone": "+1 305-539-3000",
+      "email": "info@miami.com"
+    }
+  ],
+  "parks": [
+  {
+    "name": "Yellowstone National Park",
+    "image": "https://cdn.britannica.com/97/122097-050-B89080F4/Morning-Glory-Pool-Upper-Geyser-Basin-Wyoming.jpg",
+    "location": "Wyoming, Montana, Idaho, USA",
+    "description": "Yellowstone National Park is famous for its geothermal features, including Old Faithful geyser and hot springs. It's also home to diverse wildlife, such as bison and grizzly bears, and offers numerous outdoor activities like hiking and camping.",
+    "phone": "+1 307-344-7381",
+    "email": "yellowstone@nps.gov"
+  },
+  {
+    "name": "Banff National Park",
+    "image": "https://cdn.britannica.com/71/94371-050-293AE931/Mountains-region-Ten-Peaks-Moraine-Lake-Alberta.jpg",
+    "location": "Alberta, Canada",
+    "description": "Banff National Park is Canada's oldest national park and is renowned for its stunning mountain landscapes, turquoise lakes, and abundant wildlife. Visitors can enjoy activities such as hiking, skiing, and wildlife viewing.",
+    "phone": "+1 403-762-1550",
+    "email": "banff.info@pc.gc.ca"
+  },
+  {
+    "name": "Yosemite National Park",
+    "image": "https://yosemiteusa.com/wp-content/uploads/2017/08/2017-08-03-yosemite-usa-north-tuso-yosemite-valley-tunnel-view-el-capitan-half-dome-bass-lake-boat-rentals-1600x1065.jpg",
+    "location": "California, USA",
+    "description": "Yosemite National Park is known for its iconic granite cliffs, waterfalls, and giant sequoia trees. Visitors can explore numerous hiking trails, rock climbing routes, and enjoy breathtaking views of landmarks like El Capitan and Half Dome.",
+    "phone": "+1 209-372-0200",
+    "email": "yose_visitor_information@nps.gov"
+  },
+  {
+    "name": "Grand Canyon National Park",
+    "image": "https://www.treehugger.com/thmb/gUP0KSh3g333JnAjfVrtCQa0YHE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2011__06__shutterstock_390845566-c3d8cb5a951f4f21a12408d304d41d8e.jpg",
+    "location": "Arizona, USA",
+    "description": "Grand Canyon National Park is famous for its immense size and intricate landscape formed by the Colorado River. Visitors can hike along the rim trails, raft down the river, or take in panoramic views from viewpoints like Mather Point.",
+    "phone": "+1 928-638-7888",
+    "email": "grca_information@nps.gov"
+  },
+  {
+    "name": "Zion National Park",
+    "image": "https://images.ctfassets.net/0wjmk6wgfops/01bsMhulyxBatLibRSukhj/d0db55416e77e618505856bf2cecd916/Narrows_Zion_AdobeStock_resize_408228630.jpg?w=1280&h=800&fit=fill&f=center&q=80",
+    "location": "Utah, USA",
+    "description": "Zion National Park is known for its stunning red rock formations, towering cliffs, and narrow slot canyons. Popular activities include hiking the Angel's Landing trail, exploring the Zion Narrows, and admiring the natural beauty of the park.",
+    "phone": "+1 435-772-3256",
+    "email": "zion_park_information@nps.gov"
+  },
+  {
+     "name": "Kruger National Park",
+  "image": "https://cdn1.matadornetwork.com/blogs/1/2023/07/lion-cubs-at-kruger-national-park-1200x900.jpg",
+  "location": "South Africa",
+  "description": "Kruger National Park is one of Africa's largest game reserves and a renowned safari destination. It is home to a vast array of wildlife, including the Big Five (lion, leopard, elephant, buffalo, and rhinoceros), as well as numerous other species. Visitors can enjoy guided game drives, bush walks, and camping experiences amidst the park's diverse landscapes.",
+  "phone": "+27 123456789",
+  "email": "info@krugerpark.com"
+  }
+],
+"museums": [
+  {
+    "name": "Hermitage Museum",
+    "image": "https://gimli.freetls.fastly.net/vivitravels/content/1024x680/destinazioni/stati/russia/citta/saint-petersburg/attivita/images/russia-st-petersubrg-hermitage-museum.jpg",
+    "location": "St. Petersburg, Russia",
+    "description": "The State Hermitage Museum is one of the largest and oldest museums in the world. Its vast collection includes over three million works of art and artifacts, housed in a complex of historic buildings, including the Winter Palace.",
+    "phone": "+7 812 710-90-79",
+    "email": "info@hermitage.ru"
+  },
+  {
+    "name": "Louvre Museum",
+    "image": "https://media.architecturaldigest.com/photos/5900cc370638dd3b70018b33/16:9/w_2560%2Cc_limit/Secrets%2520of%2520Louvre%25201.jpg",
+    "location": "Paris, France",
+    "description": "The Louvre Museum is one of the world's largest and most visited art museums. It houses thousands of works of art, including the Mona Lisa, Venus de Milo, and Winged Victory of Samothrace, spanning ancient civilizations to the 19th century.",
+    "phone": "+33 1 40 20 50 50",
+    "email": "information@louvre.fr"
+  },
+  {
+    "name": "British Museum",
+    "image": "https://www.britishmuseum.org/sites/default/files/styles/16_9_media_small/public/2019-10/British-Museum-Front-Day.jpg",
+    "location": "London, United Kingdom",
+    "description": "The British Museum is dedicated to human history, art, and culture. Its vast collection spans over two million years of history, including artifacts from ancient Egypt, Greece, Rome, and other cultures from around the world.",
+    "phone": "+44 20 7323 8299",
+    "email": "information@britishmuseum.org"
+  },
+  {
+    "name": "Metropolitan Museum of Art",
+    "image": "https://cdn.sanity.io/images/cctd4ker/production/b8a5e07c166342e1c7f6fe30b8c45d64fea69ea5-4096x2326.jpg",
+    "location": "New York City, USA",
+    "description": "The Metropolitan Museum of Art, often referred to as the Met, is one of the world's largest and most prestigious art museums. Its collection includes over two million works of art, spanning over 5,000 years of human history.",
+    "phone": "+1 212-535-7710",
+    "email": "communications@metmuseum.org"
+  },
+  {
+    "name": "Vatican Museums",
+    "image": "https://www.vaticancitytours.it/wp-content/uploads/2018/06/Vatican-Museum.jpg",
+    "location": "Vatican City",
+    "description": "The Vatican Museums are a group of art and Christian museums located within Vatican City. They display works from the immense collection amassed by popes throughout the centuries, including renowned pieces like the Sistine Chapel ceiling.",
+    "phone": "+39 06 6988 4676",
+    "email": "info.mv@scv.va"
+  },
+  {
+    "name": "National Museum of China",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/35/12/70/national-museum-of-china.jpg",
+    "location": "Beijing, China",
+    "description": "The National Museum of China is one of the largest museums in the world, showcasing China's history, art, and culture. Its collection includes over a million artifacts, spanning thousands of years of Chinese civilization.",
+    "phone": "+86 10 6511 6400",
+    "email": "nmch@chnmuseum.cn"
+  }
+],
+"campings": [
+  {
+    "name": "Yosemite National Park Campgrounds",
+    "image": "https://www.travelandleisure.com/thmb/mZrx_MmQBC6kIp7b9QK8LS2z2-I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/half-dome-village-yosemite-national-park-YOSEMITECAMP0420-ee706917aab346eebaaaa8c7d91ef659.jpg",
+    "location": "California, USA",
+    "description": "Yosemite National Park offers several campgrounds amidst stunning natural scenery. Whether you prefer tent camping or RV camping, you can enjoy the beauty of Yosemite's granite cliffs, waterfalls, and ancient sequoias.",
+    "phone": "+1 209-372-0200",
+    "email": "yose_visitor_information@nps.gov"
+  },
+{
+  "name": "Great Smoky Mountains National Park Campgrounds",
+  "image": "https://www.visitmysmokies.com/wp-content/uploads/2013/03/Sunset-Camping.jpg",
+  "location": "North Carolina, Tennessee, USA",
+  "description": "Great Smoky Mountains National Park offers a variety of campgrounds amidst the beauty of the Appalachian Mountains. Whether you prefer secluded tent sites or developed RV parks, you can experience the park's diverse ecosystems and wildlife.",
+  "phone": "+1 865-436-1200",
+  "email": "grsm_info@nps.gov"
+},
+  {
+    "name": "Banff National Park Campgrounds",
+    "image": "https://paddlingmagazine-images.s3.amazonaws.com/2021/02/18110716/Banff-camping-trip.jpg",
+    "location": "Alberta, Canada",
+    "description": "Banff National Park offers several campgrounds surrounded by the Canadian Rockies. Whether you're looking for basic tent sites or full-service RV parks, you can experience the beauty of Banff's lakes, forests, and mountain vistas.",
+    "phone": "+1 403-762-1550",
+    "email": "banff.info@pc.gc.ca"
+  },
+  {
+    "name": "Grand Canyon National Park Campgrounds",
+    "image": "https://media.cntraveler.com/photos/6046421327e2fd8ada48aa28/16:9/w_2560%2Cc_limit/GrandCanyonCamping-2021-GettyImages-520754458-2.jpg",
+    "location": "Arizona, USA",
+    "description": "Grand Canyon National Park offers campgrounds on both the North and South Rims, allowing visitors to experience the awe-inspiring beauty of the canyon. From tent sites to RV hookups, there are options for every type of camper.",
+    "phone": "+1 928-638-7888",
+    "email": "grca_information@nps.gov"
+  },
+  {
+    "name": "Yellowstone National Park Campgrounds",
+    "image": "https://assets3.thrillist.com/v1/image/2785791/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70",
+    "location": "Wyoming, Montana, Idaho, USA",
+    "description": "Yellowstone National Park offers numerous campgrounds surrounded by geothermal wonders and wildlife habitats. Whether you're seeking a backcountry experience or family-friendly amenities, Yellowstone has camping options for everyone.",
+    "phone": "+1 307-344-7381",
+    "email": "yellowstone@nps.gov"
+  },
+  {
+    "name": "Zion National Park Campgrounds",
+    "image": "https://mlxkll71glbl.i.optimole.com/cb:sejj.9658/w:1920/h:1080/q:mauto/ig:avif/f:best/https://explore.bookoutdoors.com/wp-content/uploads/is-it-difficult-to-camp-zion-national-park-zach-betten.jpg",
+    "location": "Utah, USA",
+    "description": "Zion National Park offers several campgrounds nestled within its stunning red rock canyons. From primitive tent sites to RV hookups, visitors can enjoy access to world-class hiking trails and breathtaking vistas.",
+    "phone": "+1 435-772-3256",
+    "email": "zion_park_information@nps.gov"
+  }
+],
+  "festivals": [
+    {
+      "name": "Holi Festival",
+       "image": "https://images.unsplash.com/photo-1551757891-24a8dabd2708?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9saXxlbnwwfHwwfHx8Mg%3D%3D",
+      "location": "India",
+      "description": "Holi is a Hindu spring festival, also known as the Festival of Colors or the Festival of Love. It signifies the victory of good over evil, the arrival of spring, and the end of winter. Participants celebrate by throwing colored powders and water at each other, dancing, singing, and enjoying festive foods and drinks.",
+      "phone": "+91 1234567890",
+      "email": "info@holi.com"
+    },
+    {
+      "name": "Carnival of Venice",
+      "image": "https://i0.wp.com/www.touristitaly.com/wp-content/uploads/2024/01/shutterstock_1008425929.jpg?resize=1024%2C683&ssl=1",
+      "location": "Venice, Italy",
+      "description": "The Carnival of Venice is an annual festival held in Venice, Italy. It is famous for its elaborate masks and costumes, as well as its masquerade balls and parades.",
+      "phone": "+39 0123456789",
+      "email": "info@carnivalvenice.com"
+    },
+    {
+      "name": "Oktoberfest",
+      "image": "https://lp-cms-production.imgix.net/2022-08/GettyImages-1078390306.jpg",
+      "location": "Munich, Germany",
+      "description": "Oktoberfest is the world's largest Volksfest (beer festival and travelling funfair). Held annually in Munich, Bavaria, Germany, it is a 16- to 18-day folk festival running from mid or late September to the first Sunday in October.",
+      "phone": "+49 9876543210",
+      "email": "info@oktoberfest.de"
+    },
+    {
+      "name": "Rio Carnival",
+      "image": "https://scratchyourmapa.com/wp-content/uploads/2023/03/Sambadrome-Rio.jpg",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "The Rio Carnival is the world's largest carnival and is held annually in Rio de Janeiro, Brazil. It features samba parades, street parties, and masquerade balls.",
+      "phone": "+55 1234567890",
+      "email": "info@riocarnival.com"
+    },
+    {
+      "name": "Songkran Festival",
+      "image": "https://image-tc.galaxy.tf/wijpeg-eudzldnyq1g1hgm90i5mpcvmr/file.jpg",
+      "location": "Thailand",
+      "description": "Songkran is the Thai New Year's festival. The festival is known for its water fights, where people splash water on each other as a symbol of washing away the past and welcoming the new year.",
+      "phone": "+66 9876543210",
+      "email": "info@songkranthailand.com"
+    },
+    {
+      "name": "Mardi Gras",
+      "image": "https://people.com/thmb/q-M2mRGpxqbSQONtV6r8Hd8KCvI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(614x489:616x491)/mardi-gras-7-fcf6c052aba849f58b93ddb58d08388d.jpg",
+      "location": "New Orleans, USA",
+      "description": "Mardi Gras is a carnival celebration held in New Orleans, Louisiana, USA. It is known for its colorful parades, masquerade balls, and parties.",
+      "phone": "+1 1234567890",
+      "email": "info@mardigras.com"
+    }
+  ],
+  "waterfalls": [
+    {
+      "name": "Niagara Falls",
+      "image": "https://www.niagarafallstourism.com/site/assets/files/8781/nft_2023_summer_-_falls-80.jpg",
+      "location": "Border of USA and Canada",
+      "description": "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. It is one of the most famous waterfalls in the world.",
+      "phone": "+1 1234567890",
+      "email": "info@niagarafalls.com"
+    },
+    {
+      "name": "Victoria Falls",
+      "image": "https://i.natgeofe.com/n/177faece-da85-4458-ad91-3b83a89af602/92754_4x3.jpg",
+      "location": "Zambia and Zimbabwe",
+      "description": "Victoria Falls is a waterfall on the Zambezi River in southern Africa, which provides habitat for several unique species of plants and animals. It is one of the largest and most famous waterfalls in the world.",
+      "phone": "+260 123456789",
+      "email": "info@victoriafalls.com"
+    },
+    {
+      "name": "Iguazu Falls",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/6e/f7/aa.jpg",
+      "location": "Border of Argentina and Brazil",
+      "description": "Iguazu Falls, located on the Iguazu River on the border of the Argentine province of Misiones and the Brazilian state of Paraná, is one of the largest waterfalls in the world. It is known for its stunning natural beauty and surrounding rainforest.",
+      "phone": "+54 1234567890",
+      "email": "info@iguazufalls.com"
+    },
+    {
+      "name": "Angel Falls",
+      "image": "https://travelwiththesmile.com/wp-content/uploads/2017/07/Visiting-Angel-Falls-Venezuela-the-tallest-waterfall-in-the-world-7.jpg",
+      "location": "Venezuela",
+      "description": "Angel Falls is the world's highest waterfall, with a height of 979 meters (3,212 feet) and a plunge of 807 meters (2,648 feet). It is located in the Canaima National Park in the Gran Sabana region of Venezuela.",
+      "phone": "+58 1234567890",
+      "email": "info@angelfalls.com"
+    },
+    {
+      "name": "Plitvice Lakes",
+      "image": "https://www.akvillas.com/-/media/akvillas/experiences/croatia/explore-the-stunning-plitvice-lakes/main_plitvice-lakes-national-park--4.jpg",
+      "location": "Croatia",
+      "description": "Plitvice Lakes National Park is a UNESCO World Heritage site known for its cascading lakes, waterfalls, and lush forests. It is one of the most beautiful natural attractions in Croatia.",
+      "phone": "+385 123456789",
+      "email": "info@plitvicelakes.com"
+    },
+    {
+      "name": "Kaieteur Falls",
+      "image": "https://www.evergreenadventuresgy.com/wp-content/uploads/2023/10/Kaieteur-Falls-Cover-Photo-800x490.png",
+      "location": "Guyana",
+      "description": "Kaieteur Falls is a waterfall on the Potaro River in central Guyana. It is one of the most powerful waterfalls in the world, with an average flow rate of 663 cubic meters per second (23,400 cubic feet per second).",
+      "phone": "+592 123456789",
+      "email": "info@kaieteurfalls.com"
+    }
+  ]
+
+
+
+
+
+}
